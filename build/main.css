@@ -42263,54 +42263,16 @@ page-account img {
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-page-feed ion-item-sliding[track=ionic] ion-label {
-  border-left: 2px solid #5d73b6;
-  padding-left: 10px;
+page-feed ion-item-sliding[provider=instagram] ion-card {
+  border-left: 2px solid #5980a2;
 }
 
-page-feed ion-item-sliding[track=angular] ion-label {
-  border-left: 2px solid #AC282B;
-  padding-left: 10px;
+page-feed ion-item-sliding[provider=twitter] ion-card {
+  border-left: 2px solid #1da1f4;
 }
 
-page-feed ion-item-sliding[track=communication] ion-label {
-  border-left: 2px solid #8E8D93;
-  padding-left: 10px;
-}
-
-page-feed ion-item-sliding[track=tooling] ion-label {
-  border-left: 2px solid #FE4C52;
-  padding-left: 10px;
-}
-
-page-feed ion-item-sliding[track=services] ion-label {
-  border-left: 2px solid #FD8B2D;
-  padding-left: 10px;
-}
-
-page-feed ion-item-sliding[track=design] ion-label {
-  border-left: 2px solid #FED035;
-  padding-left: 10px;
-}
-
-page-feed ion-item-sliding[track=workshop] ion-label {
-  border-left: 2px solid #69BB7B;
-  padding-left: 10px;
-}
-
-page-feed ion-item-sliding[track=food] ion-label {
-  border-left: 2px solid #3BC7C4;
-  padding-left: 10px;
-}
-
-page-feed ion-item-sliding[track=documentation] ion-label {
-  border-left: 2px solid #B16BE3;
-  padding-left: 10px;
-}
-
-page-feed ion-item-sliding[track=navigation] ion-label {
-  border-left: 2px solid #6600CC;
-  padding-left: 10px;
+page-feed ion-item-sliding[provider=facebook] ion-card {
+  border-left: 2px solid #3b5998;
 }
 
 /*!
@@ -42325,92 +42287,29 @@ page-feed ion-item-sliding[track=navigation] ion-label {
   color: #f53d3d;
 }
 
-ion-item[track=ionic] .dot {
+ion-item[provider=instagram] .dot {
   height: 10px;
   display: inline-block;
   width: 10px;
-  background-color: #5d73b6;
+  background-color: #5980a2;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-ion-item[track=angular] .dot {
+ion-item[provider=twitter] .dot {
   height: 10px;
   display: inline-block;
   width: 10px;
-  background-color: #AC282B;
+  background-color: #1da1f4;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-ion-item[track=communication] .dot {
+ion-item[provider=facebook] .dot {
   height: 10px;
   display: inline-block;
   width: 10px;
-  background-color: #8E8D93;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-ion-item[track=tooling] .dot {
-  height: 10px;
-  display: inline-block;
-  width: 10px;
-  background-color: #FE4C52;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-ion-item[track=services] .dot {
-  height: 10px;
-  display: inline-block;
-  width: 10px;
-  background-color: #FD8B2D;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-ion-item[track=design] .dot {
-  height: 10px;
-  display: inline-block;
-  width: 10px;
-  background-color: #FED035;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-ion-item[track=workshop] .dot {
-  height: 10px;
-  display: inline-block;
-  width: 10px;
-  background-color: #69BB7B;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-ion-item[track=food] .dot {
-  height: 10px;
-  display: inline-block;
-  width: 10px;
-  background-color: #3BC7C4;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-ion-item[track=documentation] .dot {
-  height: 10px;
-  display: inline-block;
-  width: 10px;
-  background-color: #B16BE3;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-ion-item[track=navigation] .dot {
-  height: 10px;
-  display: inline-block;
-  width: 10px;
-  background-color: #6600CC;
+  background-color: #3b5998;
   border-radius: 5px;
   margin-right: 10px;
 }
